@@ -1,0 +1,215 @@
+body {
+    font-family: montserrat;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.title-img {
+    width:20%;
+    transform: rotate(25deg);
+    position:absolute;
+    right:25%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    font-family: montserrat;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4rem;
+    padding: 6%;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 3%;
+}
+
+h1, h2, h3 {
+    font-family: Montserrat;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+    vertical-align:middle;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height:1.5;
+
+}
+
+.h2-1 {
+    text-align: center;
+    width: 70%;
+    position: relative;
+    margin: auto;
+}
+
+h3{
+    font-weight: bold;
+    font-size:1.5rem;
+}
+
+p {
+    color: #8f818f;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+} 
+
+.akasha {
+    margin: auto;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-size:2.45rem;
+    font-weight: 500;
+}
+
+
+.left {
+    position:relative;
+    vertical-align:middle;
+}
+
+.nav-item {
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btn {
+    font-family: montserrat;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+#download1 {
+    display: inline-block;
+    padding-top:5px;
+    padding-right:5px;
+}
+
+.btn1 {
+border:0;
+}
+
+#download2 {
+    display: inline-block;
+    padding-top:5px;
+    padding-right:5px;
+}
+
+.btn1  {
+    margin: 5% 3% 5% 0;
+}
+
+.features-box {
+    text-align:center;
+    padding: 2%;
+}
+
+
+#features {
+    padding: 6% 7%;
+    background-color:#fff;
+    z-index:1;
+    position:relative;
+}
+
+#testimonials {
+    padding: 3% 7%;
+    text-align:center;
+    background-color: #ef8172;
+    color:#fff;
+}
+
+.testimonial-img {
+    width:8%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+.testimonial-img-yinger {
+    width:10.15%;
+    border-radius: 100%;
+    margin:20px;
+
+}
+
+.testimonial-img-azdaha {
+    width:9%;
+    border-radius: 100%;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+#press {
+    background-color: #ef8172;
+    text-align:center;
+    padding-bottom: 2%;
+}
+
+.press-logo {
+    width:10%;
+}
+
+.fatui-logo {
+    width:5%;
+    margin: auto 1%;
+}
+
+.akademiya-logo {
+    width:5%;
+    margin: auto 1%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.card {
+    padding: 0;
+    
+}
+
+.pricing-tier {
+    margin: 2%;
+}
+
+.card-group {
+    margin:2%;
+}
+
+
+
+@media screen and (max-width:1425px) {
+    .title-image .col-lg-6 {
+        position:static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
