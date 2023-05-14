@@ -1,1 +1,1 @@
-TinDog Starting Files
+NOTE: uses assets belonging to Hoyoverse
